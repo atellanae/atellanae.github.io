@@ -1,437 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AME | Atellanae Music Experience</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <section id="sezione-1" class="sezione-1">
+            <div class="d-flex justify-content-between align-items-start">
+                <h1 class="primo-titolo">IMPARA,<br>COMPONI,<br>SUONA</h1>           
+                <a class="bottone" href="#a"><p class="terzo-titolo"><i class="bi bi-check-circle-fill"></i> ISCRIVITI AI CORSI</p></a>
+            </div>
+            <h3 class="mt-5 secondo-titolo">Scuola di musica, produzione e diffusione dei tuoi brani.<span> A Sant'Arpino. Ed in tutto il mondo.</span></h3>
+            <div class="mt-4 text-center"> <i class="bi bi-mouse fs-5"></i> <p class="terzo-titolo">scroll down</p></div>
+        </section>
     
-        <meta name="twitter:card" content="summary"/>
-        <meta property="og:title" content="atellanaemusic.it" />
-        <meta property="og:image" content="assets/img/logos/social-logo.jpeg" />
-        <meta property="og:url" content="https://atellanaemusic.it" />
-        <meta property="og:description" content="Iscriviti oggi all'Accademia di Musica per diventare il musicista che hai sempre sognato di essere!" />
-        <meta name="description" content="Offre corsi per tutti i livelli e per tutte le età, dai principianti ai musicisti professionisti. La scuola di musica dispone di insegnanti altamente qualificati e di attrezzature all'avanguardia per garantire ai propri studenti un'esperienza di apprendimento eccezionale."/> 
-        <meta name="author" content="https://tundrasoftware.it" />
-        <meta name="keywords" content="Insegnamento musicale, Corsi di musica, Strumenti musicali, Performances musicali, Scuola di musica, Maestri di musica, Sviluppo musicale, Esperienza di apprendimento, Concerti musicali, Ambiente di studio accogliente "/>
-
-        <title>Atellanae Music Experience</title>
-
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icon-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="nav-link" href="#page-top">ATELLANA MUSIC</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-center text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">servizi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">corsi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#certificati">certificati</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">su di noi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">chi siamo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">contattaci</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Masthead -->
-
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Accademia di Musica</div>
-                <div class="masthead-heading text-center text-uppercase">ascolta il ritmo del tuo cuore!</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">scopri di più</a>
-            </div>
-        </header>
-
-        <!-- Services -->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Perché scegliere noi?</h2>
-                    <h3 class="section-subheading text-muted">Cosa Puoi Fare Qui: </h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <i class="bi bi-patch-check-fill fs-1"></i>
-                        <h4 class="my-3 text-primary">Certificazioni</h4>
-                        <p class="text-muted">
-                            È fondamentale per la nostra struttura certificare il tuo percorso di studi.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <i class="bi bi-music-note-list fs-1"></i>
-                        <h4 class="my-3 text-primary">Corsi di Musica</h4>
-                        <p class="text-muted">
-                            I corsi prevedono l'insegnamento di tutte le discipline principali.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <i class="bi bi-book fs-1"></i>
-                        <h4 class="my-3 text-primary">Teoria della Musica</h4>
-                        <p class="text-muted">
-                            Ear training, Armonia, Elementi di composizione, lettura della Partitura.
-                        </p>
-                    </div>
+        <section id="sezione-2" class="sezione-2 mt-3">
+            <div class="card-chi_siamo d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap py-5 px-5">
+                <h3 class="secondo-titolo text-uppercase mb-3 fst-italic">" Dare la possibilità a Tutti di scoprire realtà ed emozioni, attraverso la musica. "</h3>
+                <div>
+                    <p class="mb-2">L'Associazione nasce a S. Arpino, comune atellano. Intesa come mezzo di divulgazione e socializzazione di arti.</p>
+                    <p>Le esperienze che si vivranno saranno molteplici e varie, dalla musica Jazz, Rock, Pop, Blues, Celtica , Classica, Popolare, alla Pittura, Poesia, Teatro, insomma tutto ma sopratutto “Arte”.</p>
+                    <p class="mt-5 terzo-titolo">Giuseppe Dell'Aversana<br>Socio Fondatore</p>
                 </div>
             </div>
         </section>
+    
+        <section id="sezione-3" class="text-center mt-3">
+            <h2 class="primo-titolo mb-3">vuoi imprimere il tuo primo disco ?</h2>
+            <a class="bottone terzo-titolo" href="#a">CONTATTACI</a> 
+        </section>
+    
+        <hr>
+    
+        <section id="sezione-4">
+            <!--    video   -->
+            <video class="video-chiara" src="Dupu.mp4" autoplay loop muted></video>
 
-        <!-- Portfolio Grid -->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">I nostri corsi</h2>
-                    <h3 class="section-subheading text-muted">Che Musica Facciamo?</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modal_1">
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Moderna / Classica</div>
-                                <p class="item-intro text-muted">
-                                    Pianoforte, chitarra, canto, flauto, clarinetto, sax, batteria,fisarmonica, archi, arpa, contrabbasso e basso elettrico.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal 1-->
-                    <div class="modal fade" id="modal_1" aria-labelledby="modal_1" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="modal_1">Moderna / Classica</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                I Corsi prevedono l'insegnamento di tutte le
-                                discipline principali strumentali, vocali e
-                                teoriche, oltre ad una serie di materie
-                                complementari e integrative tra cui Teoria,
-                                Ear Training,Armonia Classica
-                                e Jazz, Elementi di Composizione, Lettura
-                                della Partitura, Pianoforte o Strumento
-                                Complementare, Progetti speciali, Attività
-                                corali, Musica da Camera, Musica d'insieme,
-                                Orchestra. Sono inoltre pianificate
-                                esercitazioni didattiche pubbliche cadenzate
-                                per finalizzare lo studio del repertorio. Sia i
-                                solisti che le formazioni dei Progetti Speciali
-                                sono regolarmente programmati in concerti e
-                                concorsi nazionali ed internazionali.
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modal_2">
-                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Discipline Complementari</div>
-                                <p class="item-intro text-muted">
-                                    Teoria, ear training, armonia ed analisi, lettura della partitura, elementi di composizione,
-                                    arrangiamento e orchestrazione, laboratorio di improvvisazione.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal 2-->
-                    <div class="modal fade" id="modal_2" aria-labelledby="modal_2" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="modal_2">Discipline Complementari</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                I Corsi prevedono l'insegnamento di Teoria, ear training, armonia ed analisi, pianoforte o strumento complementare, lettura della partitura, elementi di composizione, arrangiamento ed orchestrazione, laboratorio di improvvisazione.
-                                <br><br>
-                                <h3>Preparazioni per ammissioni in conservatorio</h3>
-                                La preparazione per gli esami di ammissione in conservatorio fa riferimento ai nuovi ordinamenti ministeriali dei conservatori italiani.
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modal_3">
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Musica Tradizionale del Sud Italia</div>
-                                <p class="item-intro text-muted">
-                                    Aspetto storico/culturale, ritmiche tradizionali tra cui la tarantella cilentana,
-                                    Montemaranese, tammurria e pizzica salentina.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal 3-->
-                    <div class="modal fade" id="modal_3" aria-labelledby="modal_3" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="modal_3">Musica Tradizionale del Sud Italia</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Nel corso sarà approfondito l'aspetto
-                                storico/culturale e l'approccio tecnico e
-                                teorico dello strumento.
-                                Si analizzeranno e svilupperanno alcune
-                                ritmiche tradizionali tra cui tarantella
-                                cilentana, Montemaranese, tammurriata e
-                                pizzica salentina.
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modal_4">
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Musica Classica Indiana e Bansuri</div>
-                                <p class="item-intro text-muted">
-                                    Esercizi di respirazione, diteggiatura, intonazione al flauto traverso dell'india (Bānsuri).
-                                    
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal 4-->
-                    <div class="modal fade" id="modal_4" aria-labelledby="modal_4" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="modal_4">Musica Classica Indiana e Bansuri</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                Il Bänsuri è il flauto traverso dell'India del
-                                Nord e consiste in una canna di bambù con
-                                sei fori per le dita e una di imboccatura.
-                                Raggiunge l'estensione di due ottave e mezzo
-                                e grazie alla mancanza di meccaniche e
-                                attraverso le dita e il soffio si possono
-                                sviluppare cromatismi, glissandi e sfumature
-                                microtonali tipiche del sistema musicale
-                                indiano.
-                                Le classi saranno articolate con il primo
-                                approccio allo strumento, esercizi di
-                                respirazione, diteggiatura, intonazione e
-                                introduzione al sistema musicale indiano.
-                                Il metodo di insegnamento orale è pratico e
-                                accessibile a tutti.
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
-
-        <section class="page-section" id="certificati">
-            <!-- Collab -->
-            <div class="py-5">
-                <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Certificati?</h2>
-                        <h3 class="section-subheading text-muted">Atellanae Music Experience garantisce il tuo percorso di studi, ti offre due soluzioni di certificati validi in tutto il mondo.</h3>
-                    </div>
-
-                    <div class="row align-items-center">
-                        <div class="col-md-6 col-sm-6 my-3">
-                            <a target="_blank" href="https://it.abrsm.org/en/"><img style="height: 150px;" class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/abrsm.webp" alt="abrsm_Logo" aria-label="ABRSM Logo" /></a>
-                            <div class="text-center">
-                                <p>È una delle cinque commissioni d'esame accreditate da Ofqual per l'assegnazione di esami graduati e diplomi in musica all'interno del National Qualifications Framework del Regno Unito.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 my-3">
-                            <a target="_blank" href="http://www.rgt.org/"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/rgt-logo.jpeg" alt="rgt_ogo" aria-label="RGT Logo" /></a>
-                            <div class="text-center mt-5">
-                                <p>È un Conservatorio di Musica, facoltà delle Arti della University of West London.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+            <p>Insieme, costruiamo il vostro progetto!</p>
+            <h2 class="d-flex justify-content-start">CREARE</h2>
+            <h2 class="d-flex justify-content-center">LA PROPRIA</h2>
+            <h2 class="d-flex justify-content-end">CARRIERA</h2>
+            <p class="mt-5">La nostra allieva Chiara D’auria con il suo primo singolo “Dupu” uscito il 17/02/23 su tutti i digital store;</p>
+            <p class="mt-2">Un progetto discografico intenso , tra nuova tradizione lucana e cantautorato , registrato con la “nostra “ Liburia Records /Experimental.</p>
+            <div class="d-flex">
+                <a href=""><i class="bi bi-spotify fs-5 text-white me-2"></i></a>
+                <a href=""><i class="bi bi-youtube fs-5 text-white"></i></a>
             </div>
         </section>
-        
-
-        <!-- About -->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Chi siamo?</h2>
-                    <h3 class="section-subheading text-muted">Atellanae Music Experience in breve.</h3>
+    
+        <section id="sezione-5" class="mt-3">
+            <h2 class="d-flex justify-content-start">I NOSTRI</h2>
+            <h2 class="d-flex justify-content-center">PERCORSI</h2>
+            <h2 class="d-flex justify-content-end">DI STUDIO</h2>
+    
+            <div class="card-cosa_facciamo mt-3" id="card_classica">
+                <div class="d-flex justify-content-between">
+                    <h2 class="primo-titolo">CLASSICA</h2>
+                    <h3 class="text-warning">1</h3>
                 </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image ">
-                            <h4>
-                                <br>
-                                WHO ?
-                            </h4>
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Chi ė Atellanae Music Experience ?</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">L'Associazione nasce a S. Arpino, comune atellano. Intesa come mezzo di divulgazione e socializzazione di arti, nella fattispecie la musica, ha l'obbiettivo di dare la possibilità a tutti di scoprire realtà ed emozioni, attraverso laboratori, in cui si sperimentano nuove relazioni sociali.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image ">
-                            <h4>
-                                <br>
-                                WHY ?
-                            </h4>
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Perché Atellanae Music Experience ?</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Il perché di Atellanae Music Experience sta nel fatto che le esperienze che si vivranno saranno molteplici e varie,
-                                dalla musica Jazz, Rock, Pop, Blues, Celtica , Classica, Popolare, alla Pittura, Poesia, Teatro, insomma tutto ma
-                                sopratutto “Arte”.</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image ">
-                            <h4>
-                                <br>
-                                WHAT ?
-                            </h4>
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Certificazioni Internazionali: ABRSM, RGT Guitar.</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Ė fondamentale per la nostra struttura, certificare ufficialmente il Percorso di Studi, con attestazioni che inquadrano, tramite un
-                                linguaggio codificativo riconosciuto a livello europeo, Conoscenze, Abilità e Competenze acquisite durante il percorso didattico.
-                                Certifichiamo il percorso didattico dei propri allievi, sia del Settore Classico, sia del Settore
-                                Moderno, grazie alla collaborazione con strutture universitarie e didattiche inglesi, riconosciute a livello internazionale.</p></div>
-                        </div>
-                    </li>
-                    
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Prendi parte
-                                <br />
-                                alla Nostra
-                                <br />
-                                Storia !
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
+                <hr>
+                <p class="fw-bold mb-3">Pianoforte, chitarra, canto, flauto, clarinetto, sax, batteria,fisarmonica, archi, arpa, contrabbasso e basso elettrico.</p>
+                <p> <span>I Corsi prevedono l'insegnamento di tutte le discipline principali strumentali, vocali e teoriche, oltre ad una serie di materie complementari e integrative tra cui Teoria, Ear Training,Armonia Classica e Jazz, Elementi di Composizione, Lettura della Partitura, Pianoforte o Strumento Complementare, Progetti speciali, Attività corali, Musica da Camera, Musica d'insieme, Orchestra.</span></p>
+                <p class="mt-3"><span>Sono inoltre pianificate esercitazioni didattiche pubbliche cadenzate per finalizzare lo studio del repertorio. Sia i solisti che le formazioni dei Progetti Speciali sono regolarmente programmati in concerti e concorsi nazionali ed internazionali.</span></p>
+            </div>
+    
+            <div class="card-cosa_facciamo mt-3" id="card_complementari">
+                <div class="d-flex justify-content-between">
+                    <h2 class="primo-titolo">COMPLEMENTARI</h2>
+                    <h3 class="text-warning">2</h3>
+                </div>
+                <hr>
+                <p class="fw-bold mb-3">Teoria, ear training, armonia ed analisi, lettura della partitura, elementi di composizione, arrangiamento e orchestrazione, laboratorio di improvvisazione.</p>
+                <p> <span>I Corsi prevedono l'insegnamento di Teoria, ear training, armonia ed analisi, pianoforte o strumento complementare, lettura della partitura, elementi di composizione, arrangiamento ed orchestrazione, laboratorio di improvvisazione.</span></p>
+                <p class="mt-3"><span>La preparazione per gli esami di ammissione in conservatorio fa riferimento ai nuovi ordinamenti ministeriali dei conservatori italiani.</span></p>
+            </div>
+    
+            <div class="card-cosa_facciamo mt-3" id="card_tradizionale">
+                <div class="d-flex justify-content-between">
+                    <h2 class="primo-titolo">Musica Tradizionale del Sud Italia</h2>
+                    <h3 class="text-warning">3</h3>
+                </div>
+                <hr>
+                <p class="fw-bold mb-3">Aspetto storico e culturale, ritmiche tradizionali tra cui la tarantella cilentana, Montemaranese, tammurria e pizzica salentina.</p>
+                <p> <span>Nel corso sarà approfondito l'aspetto storico/culturale e l'approccio tecnico e teorico dello strumento. Si analizzeranno e svilupperanno alcune ritmiche tradizionali tra cui tarantella cilentana, Montemaranese, tammurriata e pizzica salentina.</span></p>
+            </div>
+    
+            <div class="card-cosa_facciamo mt-3" id="card_indiana">
+                <div class="d-flex justify-content-between">
+                    <h2 class="primo-titolo">Musica Classica Indiana e Bansuri</h2>
+                    <h3 class="text-warning">4</h3>
+                </div>
+                <hr>
+                <p class="fw-bold mb-3">Esercizi di respirazione, diteggiatura, intonazione al flauto traverso dell'india (Bānsuri).</p>
+                <p> <span>l Bänsuri è il flauto traverso dell'India del Nord e consiste in una canna di bambù con sei fori per le dita e una di imboccatura. Raggiunge l'estensione di due ottave e mezzo e grazie alla mancanza di meccaniche e attraverso le dita e il soffio si possono sviluppare cromatismi, glissandi e sfumature microtonali tipiche del sistema musicale indiano.</span></p>
+                <p class="mt-3"> <span>Le classi saranno articolate con il primo approccio allo strumento, esercizi di respirazione, diteggiatura, intonazione e introduzione al sistema musicale indiano. Il metodo di insegnamento orale è pratico e accessibile a tutti.</span></p>
             </div>
         </section>
+    </div>
 
-        <!-- Team -->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">il nostro Team</h2>
-                    <h3 class="section-subheading text-muted">Siamo pronti a seguirvi a 360 gradi.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Giuseppe Aversano</h4>
-                            <p class="text-muted">Lead Designer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Francesco Di Cristofaro</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section id="sezione-7" class="sezione-7 mt-5">
+        <div class="container py-3">
+            <h3 class="primo-titolo fw-bold">Certificati?</h3>
+            <hr>
+            <p class="secondo-titolo fw-bold">ABRSM</p>
+            <p>
+                <span>
+                    (Associated Board of the Royal Schools of Music), ente che da oltre 100 anni è leader nel campo delle certificazioni musicali a livello internazionale.
 
-        <!-- Contact -->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contattaci !</h2>
-                    <h3 class="section-subheading text-muted">Per qualunque informazione e per entrare a far parte dell'accademia.</h3>
-                </div>
+                    L’autorità dell’ABRSM è riconosciuta da quattro dei maggiori Conservatori di Musica del Regno unito:
+                
+                    Royal Academy of Music, London
+                    Royal College of Music, London
+                    Royal Northern College of Music, Manchester
+                    Royal Scottish Academy of Music & Drama, Glasgow
+                </span>
+            </p>
+            <hr>
+            <p class="secondo-titolo fw-bold">lgt@lcm</p>
+            <p>
+                <span>
+                    Il London College of Music Exams (una delle commissioni d'esame musicali più rispettate al mondo, fondata dal 1887) e certificati dall'Università di West London.
+                    Dal primo grado in poi gli esami sono regolati dall'Office of the Qualifications and Examinations Regulator (Ofqual) e i punti UCAS vengono assegnati dal 6 grado ad i diplomi.
+                </span>
+            </p>
+            <hr>
+            <br>
+        </div>
+    </section>
 
-                <form target="_blank" action="https://formsubmit.co/atenareclutamento@gmail.com" method="POST">
-                        <div>
-                            <label for="name"><p class="fw-bold text-primary">Nome e Cognome</p></label>
-                            <input type="text" id="name" name="name" class="form-control" value="" placeholder="Mario Rossi *" required>
-                        </div>
+    <section id="sezione-6" class="sezione-6 py-5">
+        <h3 class="primo-titolo fw-bold px-3">STUDIO</h3>
+        <div class="d-flex align-items-center flex-column">
+            <p class="mt-3">Ti aspettiamo in accademia</p>
+            <p class="primo-titolo">Via S. Di Giacomo,</p>
+            <p class="primo-titolo">14, Sant'Arpino,</p>
+            <p class="primo-titolo mb-2">81030 (CE)</p>
+            <button class="btn btn-dark"> <i class="bi bi-geo-alt"></i> Google Maps</button>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-3 text-white ">
+            <i class="btn btn-dark bi-instagram mx-3"></i>
+            <i class="btn btn-dark bi bi-facebook mx-3"></i>
+            <i class="btn btn-dark bi bi-telephone mx-3"></i>
+        </div>
+    </section>
 
-                        <div class="mt-3">
-                            <label for="email"><p class="fw-bold text-primary">Email</p></label>
-                            <input type="email" id="email" name="email" class="form-control" value="" placeholder="nome@example.com *" required>
-                        </div>
+    <footer class=" py-3 px-3">
+        <p class="text-center"><span>© Designed by TundraSoftware.it</span></p>
+    </footer>
 
-                        <div class="mt-3">
-                                <label for="message"><p class="fw-bold text-primary">Messaggio</p></label>
-                                <textarea id="message" class="form-control" name="message" rows="6" required></textarea>
-                        </div>
-
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary btn-xl text-uppercase mt-4"> Invia </button>
-                        </div>
-                </form>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; <a style="color: #227722;" href="https://tundrasoftware.it/">tundrasoftware</a> 2023</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.instagram.com/atellanaemusicexperience/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.facebook.com/AtellanaeMusicExperience" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://goo.gl/maps/RuJ2v8qWacJjYPso9" aria-label="Maps"><i class="bi bi-geo-alt-fill"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <div class="link-dark text-decoration-none me-3">Via S. Giacomo, 14, 81030 Sant'Arpino CE</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </html>

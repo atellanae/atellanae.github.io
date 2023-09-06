@@ -18,17 +18,13 @@
 .terzo-titolo{
     font-size: 13px;
 }
-
-.space-x{
-background-color: #000;
-height: 3px;
-}
 /*    */
 
 /*  SEZIONI  */
 span{
     color: #7c7c7c;
 }
+
 
 .sezione-2{
     color:lightgray;
@@ -57,6 +53,9 @@ span{
 .sezione-7{
     background-color: #fff;
     color: #000;
+    position: relative;
+    z-index: 2;
+    width: 100%;
 }
 /*    */
 
@@ -74,8 +73,19 @@ span{
 /*    */
 
 .video-chiara{
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     border-radius: 25px;
 }
+
+.sfondo{
+    z-index: 0 ;
+    position: fixed;
+    top: 15;
+}
+
+
+
+.fade-in{opacity: 0;transform: translateY(10vh); transition: all 0.8s cubic-bezier(.215, .61, .355, 1);}
+.fade-in.in-page{opacity: 1;transform: translateY(0vh);}
